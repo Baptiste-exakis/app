@@ -14,7 +14,7 @@ spec:
     readOnly: false
     volumeHandle: unique-volumeid  # make sure this volumeid is unique in the cluster
     volumeAttributes:
-      resourceGroup: brief7-quentin-k8s # optional, only set this when storage account is not in the same resource group as agent node
+      resourceGroup: brief7-Baptiste-lanlo # optional, only set this when storage account is not in the same resource group as agent node
       shareName: redisk8sshare
     nodeStageSecretRef:
       name: azure-secret
